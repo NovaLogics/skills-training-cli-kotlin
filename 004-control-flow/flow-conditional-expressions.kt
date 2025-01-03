@@ -71,7 +71,7 @@ fun ifExpression() {
 }
 
 /*==========================
-SECTION 1 : Using `when` in Kotlin
+SECTION 2 : Using `when` in Kotlin
 ============================
 The when keyword is used for conditional expressions with multiple branches.
 It is a flexible and readable alternative to if-else chains.
