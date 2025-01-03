@@ -11,8 +11,11 @@
     * If a value is not provided for a parameter, the default value is used.
 
 Notes:
-Default parameter values improve flexibility and reduce the need for overloaded functions.
-Combine default values with named arguments for clear and concise function calls.
+* Default parameter values improve flexibility and reduce the need for overloaded functions.
+* Combine default values with named arguments for clear and concise function calls.
+
+* You can skip specific parameters with default values, rather than omitting them all. 
+    However, after the first skipped parameter, you must name all subsequent parameters.
  */
 
  fun printMessageWithPrefix(message: String, prefix: String = "Info") {
