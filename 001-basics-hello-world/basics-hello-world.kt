@@ -1,17 +1,16 @@
 fun main() {
-    println("_____________ SECTION 1 _____________")
+    println("\n~~~~~~~~~~~~~ SECTION 1 ~~~~~~~~~~~~~\n")
 
     println("Hello, world!")
     // Output: Hello, world!
 
-    println("_____________________________________")
+    println("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
     print("Hello, ")
     println("world!")
     // Output: Hello, world!
 
-    println("_____________________________________")
-    println("_____________ SECTION 2 _____________")
+    println("\n~~~~~~~~~~~~~ SECTION 2 ~~~~~~~~~~~~~\n")
 
     // There are 5 boxes of popcorn
     val popcorn = 5
@@ -29,8 +28,7 @@ fun main() {
     println(customers)
     // Output: Customer Count : 8
 
-    println("_____________________________________")
-    println("_____________ SECTION 3 _____________")
+    println("\n~~~~~~~~~~~~~ SECTION 3 ~~~~~~~~~~~~~\n")
 
     val customerCount = 10
 
