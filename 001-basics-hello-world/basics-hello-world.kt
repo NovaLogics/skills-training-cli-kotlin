@@ -14,13 +14,13 @@ fun main() {
     println("_____________ SECTION 2 _____________")
 
     // There are 5 boxes of popcorn
-    val popcorn = 5 
+    val popcorn = 5
 
     // There are 7 hotdogs
-    val hotdog = 7 
+    val hotdog = 7
 
     // There are 10 customers in the queue
-    var customers = 10 
+    var customers = 10
 
     // Some customers leave the queue
     customers = 8
@@ -28,7 +28,19 @@ fun main() {
     print("Customer Count : ")
     println(customers)
     // Output: Customer Count : 8
+
+    println("_____________________________________")
+    println("_____________ SECTION 3 _____________")
+
+    val customerCount = 10
+
+    println("There are $customerCount customers")
+    // Output: There are 10 customers
+
+    println("There are ${customerCount + 1} customers") 
+    // Output: There are 11 customers
 }
+
 
 
 //Source : https://kotlinlang.org/docs/kotlin-tour-hello-world.html
@@ -66,6 +78,21 @@ SECTION 2 : Variables
 
 -* Kotlin recommend that you declare all variables as read-only (val) by default. 
     Declare mutable variables (var) only if necessary.
+
+ */
+
+ /*==========================
+SECTION 3 : String templates
+============================
+- What is a String Template?
+    A way to include variables or expressions inside a string.
+
+- How to Use It:
+    Start with a dollar sign `$` to include a variable.
+    Use curly braces `{}` after `$` to evaluate a piece of code.
+
+- String Basics:
+    Strings are sequences of characters wrapped in double quotes `""`
 
  */
 
