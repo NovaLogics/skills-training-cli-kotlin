@@ -44,8 +44,8 @@ Example:
 val numbers: List<Int> = listOf(1, 2, 3)      // Read-only List
 val mutableNumbers: MutableList<String> = mutableListOf("A", "B") // Mutable List
 
-
  */
+
 fun listType() {
 
     // Read-only list
