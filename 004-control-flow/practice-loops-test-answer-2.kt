@@ -16,11 +16,6 @@ Use the modulo operator (%) to return the remainder of a number being divided.
 Use the equality operator (==) to check if the remainder equals zero.
 
 ----------------------
-
-fun main() {
-    // Write your code here
-}
-
 */
 
 fun main() {
